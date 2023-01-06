@@ -1,0 +1,62 @@
+
+/* For large devices */
+// @media only screen and (min-width: 1001px)
+
+/* For medium devices */
+// @media only screen and (min-width: 769px) and (max-width: 1199px)
+
+/* For medium and small devices */
+@media only screen and (max-width: 991px)
+    main
+        .whoAreWe
+            .img
+                margin-bottom: 30px
+            .info
+                padding: 0 30px !important
+        .whoAreWe.our-secret
+            .info
+                padding: 0 30px 30px !important
+            .img
+                margin-bottom: 0 !important
+        .logos
+            .row
+                gap: 40px
+            .img
+                width: 70%
+                margin: 0 auto
+
+// // /* For small devices */
+@media only screen and (max-width: 768px)
+    header
+        .navbar-brand
+            width: 50% !important
+        .icon-x
+            padding: 0 !important
+        .form
+            input,
+            .search-icon
+                font-size: 1rem !important
+            .search-icon
+                margin-left: -6% !important
+    main
+        .welcome
+            text-align: center !important
+            h1
+                font-size: 2rem !important
+            p
+                width: 90% !important
+                font-size: 0.9rem !important
+                line-height: 2
+        .quote
+            q
+                font-size: 1rem !important
+        .work-us
+            h2
+                font-size: 1.4rem !important
+            p
+                font-size: 1rem !important
+    footer
+        .footer-bottom
+            .footer-bottom-content
+                flex-direction: column
+                gap: 10px
